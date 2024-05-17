@@ -13,8 +13,6 @@ async function getFeaturedProducts(): Promise<Product[]> {
 
   const products = await response.json()
 
-  console.log(products)
-
   return products
 }
 
